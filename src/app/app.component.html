@@ -1,0 +1,15 @@
+<p>Data Table</p>
+<table>
+  <th>
+    <tr>
+      <th>User ID</th>
+      <th>Title - 0 to 6 char</th>
+      <th>Body - 0 to 60 char</th>
+    </tr>
+    <tr *ngFor="let dt of data">
+      <td>{{ dt.userId }}</td>
+      <td>{{ dt.title }}</td>
+      <td>{{ dt.body }}</td>
+    </tr>
+  </th>
+</table>
